@@ -3,8 +3,8 @@ import Providers from "./providers";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Your site title",
-  description: "Your meta description",
+  title: "M&M Consulting",
+  description: "Transforming Your Company with AI",
 };
 
 export default function RootLayout({
