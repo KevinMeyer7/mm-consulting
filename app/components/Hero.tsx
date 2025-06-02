@@ -59,21 +59,11 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              onClick={scrollToLead}
-              className="bg-brand-text text-white rounded-lg px-6 py-3 hover:bg-transparent hover:text-brand-text hover:ring-1 hover:ring-brand-border transition"
-            >
-              Book a Discovery Call
-            </Button>
+            <Button onClick={scrollToLead}>Book a Discovery Call</Button>
 
             <Dialog>
               <DialogTrigger asChild>
-                <Button
-                  variant="outline"
-                  className="ring-1 ring-brand-border text-brand-text rounded-lg px-6 py-3 hover:bg-brand-text hover:text-white transition"
-                >
-                  Download Teaser Deck
-                </Button>
+                <Button variant="outline">Download Teaser Deck</Button>
               </DialogTrigger>
               <DialogContent className="sm:max-w-md">
                 <DialogHeader>
@@ -96,11 +86,7 @@ export function Hero() {
                       className="mt-1"
                     />
                   </div>
-                  <Button
-                    type="submit"
-                    disabled={isDownloading}
-                    className="w-full bg-brand-text text-white hover:bg-brand-textDim transition"
-                  >
+                  <Button type="submit" disabled={isDownloading}>
                     {isDownloading ? "Preparing Download..." : "Download PDF"}
                   </Button>
                 </form>

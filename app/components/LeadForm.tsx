@@ -233,7 +233,7 @@ export function LeadForm() {
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-brand-text text-white rounded-lg px-6 py-3 hover:bg-transparent hover:text-brand-text hover:ring-1 hover:ring-brand-border transition"
+                className="w-full transition"
               >
                 {isSubmitting
                   ? "Scheduling Your Call..."
