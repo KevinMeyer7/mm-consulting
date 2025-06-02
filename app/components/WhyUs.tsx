@@ -7,7 +7,7 @@ export function WhyUs() {
     {
       title: "Battle-Tested Methodology",
       description:
-        "Our frameworks have been refined across 100+ implementations, ensuring proven results for your organization.",
+        "Our frameworks have been refined across 100+ implementations, ensuring proven results for your organisation.",
     },
     {
       title: "45% Average ROI",

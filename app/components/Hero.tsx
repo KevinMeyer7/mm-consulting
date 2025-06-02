@@ -54,8 +54,7 @@ export function Hero() {
             Mid-market teams are drowning in a tidal wave of AI tools—our live
             courses, hands-on seminars, and on-demand modules (always updated
             with the newest breakthroughs) get your workforce battle-ready in 60
-            days. Trusted by Google, BlackRock, and YC-backed firms, we ensure
-            you won’t be the one left behind.{" "}
+            days.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
