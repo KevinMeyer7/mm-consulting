@@ -53,7 +53,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-brand-border/10 text-center text-brand-textDim">
-          <p>&copy; 2025 Meyer & Mathur Consulting LLC. All rights reserved.</p>
+          <p>&copy; 2025 Meyer & Mathur Consulting Ltd. All rights reserved.</p>
         </div>
       </div>
     </footer>
