@@ -45,10 +45,7 @@ export function Nav() {
             >
               Results
             </button>
-            <Button
-              onClick={() => scrollToSection("lead")}
-              className="bg-brand-text text-white rounded-lg px-6 py-3 hover:bg-transparent hover:text-brand-text hover:ring-1 hover:ring-brand-border transition"
-            >
+            <Button onClick={() => scrollToSection("lead")}>
               Book Discovery Call
             </Button>
           </div>

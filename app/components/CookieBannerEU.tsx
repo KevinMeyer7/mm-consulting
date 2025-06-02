@@ -46,12 +46,7 @@ export function CookieBannerEU() {
           >
             Decline
           </Button>
-          <Button
-            onClick={acceptCookies}
-            className="bg-brand-text text-white hover:bg-brand-textDim transition"
-          >
-            Accept All
-          </Button>
+          <Button onClick={acceptCookies}>Accept All</Button>
         </div>
       </div>
     </div>
