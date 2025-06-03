@@ -30,11 +30,13 @@ export function Nav() {
           {/* Brand */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/logo.jpeg" // put your logo at /public/logo.svg
+              src="/logo.jpeg"
               alt="Meyer & Mathur Consulting logo"
-              width={120} // tweak to your preferred size
+              width={120}
               height={32}
-              priority // ensures eager loading
+              priority
+              fetchPriority="high"
+              sizes="120px"
             />
           </Link>
 
