@@ -26,9 +26,13 @@ export default function ToolkitSection() {
             </p>
           </div>
 
-          {/*  ───────── Right slider ───────── */}
-          <div className="lg:mt-0 mt-8">
-            <div className="grid md:grid-cols-2 gap-4 lg:h-[800px] h-[400px] overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">
+          {/* ───────── Right slider ───────── */}
+          <div className="lg:mt-0 mt-8 min-w-0">
+            <div
+              className="grid md:grid-cols-2 gap-4 lg:h-[800px] h-[400px]
+              overflow-hidden min-w-0
+              [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]"
+            >
               <IntegrationColumn tools={allTools} direction="up" />
               <IntegrationColumn
                 tools={[...allTools].reverse()}

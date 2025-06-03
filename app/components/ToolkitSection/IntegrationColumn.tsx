@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { Card } from "@/app/components/ui/card";
 import { Badge } from "@/app/components/ui/badge";
@@ -27,7 +26,7 @@ export default function IntegrationColumn({
   const travel = cardHeight * tools.length;
 
   return (
-    <div className="h-[600px] overflow-hidden relative">
+    <div className="h-[600px] overflow-hidden relative w-full min-w-0">
       <motion.div
         className="flex flex-col gap-4"
         animate={{ y: direction === "up" ? [0, -travel] : [-travel, 0] }}
