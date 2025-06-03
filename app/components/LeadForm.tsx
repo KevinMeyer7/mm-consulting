@@ -60,7 +60,7 @@ export function LeadForm() {
 
       // Open Calendly link in a new tab
       window.open(
-        "https://calendly.com/d/cq83-75r-3py/introduction-call-m-m-consulting",
+        "https://calendly.com/arhant-mm-consulting/30min",
         "_blank",
         "noopener,noreferrer"
       );
