@@ -46,8 +46,7 @@ export default function PrivacyPolicyPage() {
               Registered address
             </div>
             <div className="sm:col-span-2 text-brand-textDim">
-              Registered address: 6 Fairlawns, 89 Wimbledon Parkside, London
-              SW19 5LR
+              6 Fairlawns, 89 Wimbledon Parkside, London SW19 5LR
             </div>
 
             <div className="font-medium text-brand-text">Contact</div>

@@ -1,12 +1,11 @@
 // -----------------------------------------------------------------------------
-// toolkit.ts – central catalogue of AI tools showcased in the courses
+// toolkit.ts – curated stack we teach in the programme
 // -----------------------------------------------------------------------------
-
 export type Tool = {
-  tag: string; // high‑level capability bucket (used for grouping)
-  name: string; // marketing name of the product or feature
-  icon: string; // filename in /public/icons, e.g. "clickup.svg"
-  desc: string; // ✨ one‑liner focused on business value, <70 chars
+  tag: string; // vertical bucket
+  name: string; // product name
+  icon: string; // file in /public/icons
+  desc: string; // ≤ 70-char value one-liner
 };
 
 export const toolkit: Tool[] = [
@@ -15,128 +14,69 @@ export const toolkit: Tool[] = [
     tag: "Project Mgmt",
     name: "ClickUp AI",
     icon: "clickup.svg",
-    desc: "Auto‑draft tasks, docs & OKRs.",
+    desc: "Auto-draft tasks, docs & OKRs.",
   },
+  {
+    tag: "Project Mgmt",
+    name: "Motion",
+    icon: "motion.svg",
+    desc: "AI schedules every task for you.",
+  },
+
   // ─────────── CRM / Sales ───────────
   {
     tag: "CRM / Sales",
     name: "Apollo.io",
-    icon: "apollo.svg",
-    desc: "50M contacts + AI email writer.",
+    icon: "apollo.png",
+    desc: "50 M contacts + AI outreach.",
   },
   {
     tag: "CRM / Sales",
-    name: "Pipedrive AI",
-    icon: "pipedrive.svg",
-    desc: "Predict deal close‑probability.",
-  },
-  {
-    tag: "CRM / Sales",
-    name: "HubSpot AI",
-    icon: "hubspot.svg",
-    desc: "ChatSpot & Content Assistant.",
-  },
-  {
-    tag: "CRM / Sales",
-    name: "Salesforce Einstein",
-    icon: "salesforce.svg",
-    desc: "Predictive scoring & GPT actions.",
-  },
-  {
-    tag: "CRM / Sales",
-    name: "Gong Engage AI",
-    icon: "gong.svg",
-    desc: "Call summaries & deal‑risk alerts.",
+    name: "HubSpot ChatSpot",
+    icon: "hubspot.png",
+    desc: "Command the CRM with plain English.",
   },
 
   // ─────────── Communications ───────────
   {
     tag: "Comms",
     name: "Otter.ai",
-    icon: "otter.svg",
-    desc: "Live meeting notes & action items.",
+    icon: "otter.png",
+    desc: "Live notes & action items from calls.",
   },
   {
     tag: "Comms",
     name: "Slack AI",
     icon: "slack.svg",
-    desc: "Thread summaries & digests.",
-  },
-  {
-    tag: "Comms",
-    name: "Grammarly GO",
-    icon: "grammarly.svg",
-    desc: "Context‑aware writing help.",
-  },
-  {
-    tag: "Comms",
-    name: "Zoom AI Companion",
-    icon: "zoom.svg",
-    desc: "Meeting recaps & next steps.",
-  },
-  {
-    tag: "Comms",
-    name: "Loom AI",
-    icon: "loom.svg",
-    desc: "Instant video transcriptions & highlights.",
+    desc: "Instant thread summaries & digests.",
   },
 
   // ─────────── Decks / Content Creation ───────────
   {
     tag: "Decks",
     name: "Gamma.app",
-    icon: "gamma.svg",
-    desc: "Narrative decks w/ live charts.",
+    icon: "gamma.png",
+    desc: "Narrative decks, charts auto-built.",
   },
   {
     tag: "Decks",
     name: "Tome",
-    icon: "tome.svg",
-    desc: "Storytelling decks, AI images.",
-  },
-  {
-    tag: "Decks",
-    name: "Beautiful.ai",
-    icon: "beautiful.svg",
-    desc: "Auto‑layout designer templates.",
-  },
-  {
-    tag: "Decks",
-    name: "Pitch AI",
-    icon: "pitch.svg",
-    desc: "Realtime feedback & smart outlines.",
-  },
-  {
-    tag: "Decks",
-    name: "Canva Magic",
-    icon: "canva.svg",
-    desc: "One‑click slide generation.",
+    icon: "tome.png",
+    desc: "Story-first slides with AI visuals.",
   },
 
-  // ─────────── Efficiency / Co‑Pilot ───────────
+  // ─────────── Efficiency / Co-Pilot ───────────
   {
     tag: "Efficiency",
     name: "Microsoft Copilot",
-    icon: "copilot.svg",
-    desc: "AI in Word, Excel, PPT & Teams.",
+    icon: "copilot.png",
+    desc: "AI across Word, Excel & Teams.",
   },
   {
     tag: "Efficiency",
-    name: "Google Gemini Workspace",
+    name: "Google Gemini",
     icon: "gemini.svg",
-    desc: "Contextual help across Gmail & Docs.",
-  },
-  {
-    tag: "Efficiency",
-    name: "Rewind AI",
-    icon: "rewind.svg",
-    desc: "Search everything you’ve seen.",
-  },
-  {
-    tag: "Efficiency",
-    name: "Superhuman AI",
-    icon: "superhuman.svg",
-    desc: "Email triage & auto‑draft replies.",
+    desc: "Contextual help in Gmail & Docs.",
   },
 ];
 

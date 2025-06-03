@@ -49,7 +49,7 @@ export function Footer() {
             <div className="space-y-2 text-brand-textDim">
               <p>arhant@mm-consulting.ai</p>
               <p>+44 7726 909100</p>
-              <p>London, UK</p>
+              <p>6 Fairlawns, 89 Wimbledon Parkside, London SW19 5LR</p>
             </div>
 
             {/* Social links */}
