@@ -17,10 +17,7 @@ export function Hero() {
   const [isDownloading, setIsDownloading] = useState(false);
 
   const scrollToLead = () => {
-    const element = document.getElementById("lead");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+    document.getElementById("lead")?.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleDownload = async (e: React.FormEvent) => {
@@ -28,16 +25,29 @@ export function Hero() {
     if (!email) return;
 
     setIsDownloading(true);
-    // In real implementation, this would track the download and trigger email
-    setTimeout(() => {
-      // Simulate download
+
+    const filename = "Meyer-Mathur-AI-Training-Teaser.pdf";
+
+    try {
+      // 1️⃣  Tell the server to fire the Resend email
+      await fetch("/api/send-download-notification", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ filename, visitorEmail: email }),
+      });
+    } catch (err) {
+      console.error("[Download] Notification failed:", err);
+      // Optionally: show a toast/snackbar here
+    } finally {
+      // 2️⃣  Start the file download regardless of email-send outcome
       const link = document.createElement("a");
       link.href = "/teaser-deck.pdf";
-      link.download = "Meyer-Mathur-AI-Training-Teaser.pdf";
+      link.download = filename;
       link.click();
+
       setIsDownloading(false);
       setEmail("");
-    }, 1000);
+    }
   };
 
   return (
@@ -64,12 +74,14 @@ export function Hero() {
               <DialogTrigger asChild>
                 <Button variant="outline">Download Teaser Deck</Button>
               </DialogTrigger>
+
               <DialogContent className="sm:max-w-md">
                 <DialogHeader>
                   <DialogTitle className="text-brand-text">
                     Download Our AI Training Overview
                   </DialogTitle>
                 </DialogHeader>
+
                 <form onSubmit={handleDownload} className="space-y-4">
                   <div>
                     <Label htmlFor="email" className="text-brand-textDim">
@@ -85,8 +97,9 @@ export function Hero() {
                       className="mt-1"
                     />
                   </div>
+
                   <Button type="submit" disabled={isDownloading}>
-                    {isDownloading ? "Preparing Download..." : "Download PDF"}
+                    {isDownloading ? "Preparing Download…" : "Download PDF"}
                   </Button>
                 </form>
               </DialogContent>
