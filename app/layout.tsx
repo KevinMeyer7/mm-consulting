@@ -3,7 +3,7 @@ import Providers from "./providers";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "M&M Consulting",
+  title: "MM Consulting",
   description: "Transforming Your Company with AI",
 };
 

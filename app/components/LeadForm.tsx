@@ -150,7 +150,7 @@ export function LeadForm() {
                   value={formData.company}
                   onChange={(e) => updateField("company", e.target.value)}
                   className="mt-1"
-                  placeholder="Meyer & Mathur Consulting Ltd"
+                  placeholder="MM Consulting Ltd"
                   required
                 />
               </div>

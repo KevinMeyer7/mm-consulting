@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/app/components/ui/button";
+import Image from "next/image";
 
 export function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,8 +28,14 @@ export function Nav() {
       <div className="mx-auto max-w-7xl px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Brand */}
-          <Link href="/" className="text-xl font-bold">
-            Meyer&nbsp;&amp;&nbsp;Mathur Consulting
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.jpeg" // put your logo at /public/logo.svg
+              alt="Meyer & Mathur Consulting logo"
+              width={120} // tweak to your preferred size
+              height={32}
+              priority // ensures eager loading
+            />
           </Link>
 
           {/* Desktop links */}

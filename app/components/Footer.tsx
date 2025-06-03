@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-bold text-brand-text mb-4">
-              Meyer & Mathur Consulting
+              MM Consulting
             </h3>
             <p className="text-brand-textDim leading-relaxed">
               Transforming mid-market companies through enterprise-grade AI
@@ -74,8 +74,8 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-brand-border/10 text-center text-brand-textDim">
           <p>
-            &copy; 2025 Meyer & Mathur Consulting Ltd · 6 Fairlawns, 89
-            Wimbledon Parkside, London SW19 5LR. All rights reserved.
+            &copy; 2025 MM Consulting Ltd · 6 Fairlawns, 89 Wimbledon Parkside,
+            London SW19 5LR. All rights reserved.
           </p>
         </div>
       </div>

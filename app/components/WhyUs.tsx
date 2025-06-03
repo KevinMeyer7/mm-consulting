@@ -31,7 +31,7 @@ export function WhyUs() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-[32px] tracking-[-0.03em] font-bold text-brand-text mb-4">
-            Why Choose Meyer & Mathur
+            Why Choose MM
           </h2>
           <p className="text-base leading-relaxed text-brand-textDim max-w-2xl mx-auto">
             We&apos;ve distilled the best practices from Fortune 500 AI

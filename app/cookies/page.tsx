@@ -9,7 +9,7 @@ import { CookieBannerEU } from "../components/CookieBannerEU";
 import { Button } from "../components/ui/button";
 import Link from "next/link";
 export const metadata: Metadata = {
-  title: "Cookie Information | Meyer & Mathur Consulting",
+  title: "Cookie Information | MM Consulting",
   description: "See the single essential cookie we set and how it’s used.",
 };
 

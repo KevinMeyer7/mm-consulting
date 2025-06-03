@@ -7,9 +7,9 @@ import { Nav } from "../components/Nav";
 import { Footer } from "../components/Footer";
 import { CookieBannerEU } from "../components/CookieBannerEU";
 export const metadata: Metadata = {
-  title: "Privacy Policy | Meyer & Mathur Consulting",
+  title: "Privacy Policy | MM Consulting",
   description:
-    "How Meyer & Mathur Consulting Ltd collects, uses and protects your data in line with UK & EU GDPR.",
+    "How MM Consulting Ltd collects, uses and protects your data in line with UK & EU GDPR.",
 };
 
 export default function PrivacyPolicyPage() {

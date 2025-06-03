@@ -3,7 +3,7 @@ export const founders = [
     name: "Kevin Meyer",
     title: "Co-Founder & Technology Director",
     bio: "Ex-Google engineer turned YC founding engineer—Kevin “speaks AI” because he’s shipped ML features at scale and helped startups find product-market fit. He now channels that FAANG-grade expertise into live courses, hands-on seminars, and on-demand training, all tailored to your organisation’s needs.",
-    image: "/placeholder-kevin.png", // Will be replaced with Supabase storage URL
+    image: "/placeholder-kevin.jpeg", // Will be replaced with Supabase storage URL
     linkedin: "https://linkedin.com/in/kevinstefanmeyer",
     expertise: [
       "Machine Learning",
