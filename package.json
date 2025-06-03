@@ -27,6 +27,7 @@
     "node-fetch": "^3.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "simple-icons": "^15.0.0",
     "sonner": "^2.0.4",
     "supabase": "^2.23.4",

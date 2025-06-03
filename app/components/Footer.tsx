@@ -1,5 +1,8 @@
 "use client";
 
+import Link from "next/link";
+import { FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
+
 export function Footer() {
   return (
     <footer className="border-t border-brand-border/10 py-12 px-6">
@@ -24,6 +27,12 @@ export function Footer() {
               >
                 Privacy Policy
               </a>
+              <Link
+                href="/terms"
+                className="block text-brand-textDim hover:text-brand-text transition-colors"
+              >
+                Terms of Use
+              </Link>
               <button
                 className="block text-brand-textDim hover:text-brand-text transition-colors text-left"
                 onClick={() => {
@@ -32,13 +41,6 @@ export function Footer() {
               >
                 Cookie Settings
               </button>
-              <a
-                href="/dpa.pdf"
-                target="_blank"
-                className="block text-brand-textDim hover:text-brand-text transition-colors"
-              >
-                Download DPA (PDF)
-              </a>
             </div>
           </div>
 
@@ -49,11 +51,32 @@ export function Footer() {
               <p>+44 7726 909100</p>
               <p>London, UK</p>
             </div>
+
+            {/* Social links */}
+            <div className="flex space-x-4 mt-4">
+              <Link
+                href="https://x.com/consulting46877"
+                aria-label="X"
+                className="text-brand-textDim hover:text-brand-text transition-colors"
+              >
+                <FaXTwitter className="w-5 h-5" />
+              </Link>
+              <Link
+                href="#"
+                aria-label="LinkedIn"
+                className="text-brand-textDim hover:text-brand-text transition-colors"
+              >
+                <FaLinkedinIn className="w-5 h-5" />
+              </Link>
+            </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-brand-border/10 text-center text-brand-textDim">
-          <p>&copy; 2025 Meyer & Mathur Consulting Ltd. All rights reserved.</p>
+          <p>
+            &copy; 2025 Meyer & Mathur Consulting Ltd · 6 Fairlawns, 89
+            Wimbledon Parkside, London SW19 5LR. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

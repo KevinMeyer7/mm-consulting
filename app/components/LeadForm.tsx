@@ -120,7 +120,7 @@ export function LeadForm() {
                     value={formData.name}
                     onChange={(e) => updateField("name", e.target.value)}
                     className="mt-1"
-                    placeholder="John Smith"
+                    placeholder="Arhant Mathur"
                     required
                   />
                 </div>
@@ -135,7 +135,7 @@ export function LeadForm() {
                     value={formData.email}
                     onChange={(e) => updateField("email", e.target.value)}
                     className="mt-1"
-                    placeholder="john@company.com"
+                    placeholder="arhant@mm-consulting.ai"
                     required
                   />
                 </div>
@@ -150,7 +150,7 @@ export function LeadForm() {
                   value={formData.company}
                   onChange={(e) => updateField("company", e.target.value)}
                   className="mt-1"
-                  placeholder="Acme Corporation"
+                  placeholder="Meyer & Mathur Consulting Ltd"
                   required
                 />
               </div>
