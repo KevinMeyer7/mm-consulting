@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-bold text-brand-text mb-4">
-              MM Consulting
+              MM CONSULTING AI LTD.
             </h3>
             <p className="text-brand-textDim leading-relaxed">
               Transforming mid-market companies through enterprise-grade AI

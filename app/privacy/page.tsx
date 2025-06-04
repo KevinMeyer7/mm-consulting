@@ -7,9 +7,9 @@ import { Nav } from "../components/Nav";
 import { Footer } from "../components/Footer";
 import { CookieBannerEU } from "../components/CookieBannerEU";
 export const metadata: Metadata = {
-  title: "Privacy Policy | MM Consulting",
+  title: "Privacy Policy | MM CONSULTING AI LTD.",
   description:
-    "How MM Consulting Ltd collects, uses and protects your data in line with UK & EU GDPR.",
+    "How MM CONSULTING AI LTD. collects, uses and protects your data in line with UK & EU GDPR.",
 };
 
 export default function PrivacyPolicyPage() {

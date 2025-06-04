@@ -28,8 +28,8 @@ export default function RootLayout({
   const orgJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "MM Consulting",
-    alternateName: "MM Consulting Ltd",
+    name: "MM Consulting AI",
+    alternateName: "MM Consulting AI Ltd",
     url: "https://mm-consulting.ai",
     logo: "https://mm-consulting.ai/logo.jpeg",
     description:

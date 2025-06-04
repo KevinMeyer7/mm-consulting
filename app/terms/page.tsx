@@ -6,7 +6,7 @@ import { Footer } from "../components/Footer";
 import { CookieBannerEU } from "../components/CookieBannerEU";
 
 export const metadata: Metadata = {
-  title: "Terms of Use | MM Consulting",
+  title: "Terms of Use | MM CONSULTING AI LTD.",
   description:
     "The rules for using mm-consulting.ai, including intellectual-property rights, acceptable use, disclaimers and governing law.",
 };
