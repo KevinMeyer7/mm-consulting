@@ -55,14 +55,14 @@ export function Footer() {
             {/* Social links */}
             <div className="flex space-x-4 mt-4">
               <Link
-                href="https://x.com/consulting46877"
+                href="https://x.com/mm_consultingai"
                 aria-label="X"
                 className="text-brand-textDim hover:text-brand-text transition-colors"
               >
                 <FaXTwitter className="w-5 h-5" />
               </Link>
               <Link
-                href="#"
+                href="https://www.linkedin.com/company/meyermathurconsulting"
                 aria-label="LinkedIn"
                 className="text-brand-textDim hover:text-brand-text transition-colors"
               >
@@ -74,8 +74,8 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-brand-border/10 text-center text-brand-textDim">
           <p>
-            &copy; 2025 MM Consulting Ltd · 6 Fairlawns, 89 Wimbledon Parkside,
-            London SW19 5LR. All rights reserved.
+            &copy; 2025 MM CONSULTING AI LTD. · 6 Fairlawns, 89 Wimbledon
+            Parkside, London SW19 5LR. All rights reserved.
           </p>
         </div>
       </div>

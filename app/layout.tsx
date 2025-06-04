@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "MM Consulting – AI Transformation",
     description:
       "Transforming mid-market companies through enterprise-grade AI training and implementation.",
-    images: [{ url: "https://mm-consulting.ai/og-cover.jpg" }],
+    images: [{ url: "https://mm-consulting.ai/logo.jpeg" }],
   },
 };
 
