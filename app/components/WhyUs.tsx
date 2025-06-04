@@ -15,9 +15,9 @@ export function WhyUs() {
         "Teams see measurable productivity gains within the first month, with full ROI typically achieved in 90 days.",
     },
     {
-      title: "Mid-Market Specialists",
+      title: "Enterprise Specialists",
       description:
-        "Purpose-built for companies with 50-2000 employees who need enterprise results without enterprise complexity.",
+        "Designed for organizations ranging from 50 to 10,000+ employees, delivering enterprise-level results without the usual enterprise complexity.",
     },
     {
       title: "White-Glove Delivery",
@@ -34,9 +34,10 @@ export function WhyUs() {
             Why Choose MM
           </h2>
           <p className="text-base leading-relaxed text-brand-textDim max-w-2xl mx-auto">
-            We&apos;ve distilled the best practices from Fortune 500 AI
-            implementations into a scalable methodology designed specifically
-            for mid-market companies.
+            We&apos;ve distilled the best practices from Fortune&nbsp;500 AI
+            implementations into a scalable methodology that serves
+            organizations of all sizes—from rapidly growing teams to global
+            enterprises.
           </p>
         </div>
 

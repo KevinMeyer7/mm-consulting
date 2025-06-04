@@ -61,10 +61,9 @@ export function Hero() {
           </h1>
 
           <p className="text-base md:text-lg leading-relaxed text-brand-textDim mb-8 max-w-2xl mx-auto">
-            Mid-market teams are drowning in a tidal wave of AI tools—our live
-            courses, hands-on seminars, and on-demand modules (always updated
-            with the newest breakthroughs) get your workforce battle-ready in 60
-            days.
+            Teams are drowning in a tidal wave of AI tools—our live courses,
+            hands-on seminars, and on-demand modules (always updated with the
+            newest breakthroughs) get your workforce battle-ready in 60 days.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

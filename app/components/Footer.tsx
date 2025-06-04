@@ -13,8 +13,8 @@ export function Footer() {
               MM CONSULTING AI LTD.
             </h3>
             <p className="text-brand-textDim leading-relaxed">
-              Transforming mid-market companies through enterprise-grade AI
-              training and implementation.
+              Transforming companies through enterprise-grade AI training and
+              implementation.
             </p>
           </div>
 

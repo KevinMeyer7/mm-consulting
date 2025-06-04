@@ -5,16 +5,16 @@ import Script from "next/script";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MM Consulting – AI Transformation for Mid-Market Teams",
+  title: "MM Consulting – AI Transformation",
   description:
-    "Live courses, hands-on seminars and on-demand modules that turn mid-market workforces into AI power-users in 60 days.",
+    "Live courses, hands-on seminars and on-demand modules that turn your workforces into AI power-users in 60 days.",
   alternates: { canonical: "https://mm-consulting.ai" },
   openGraph: {
     type: "website",
     url: "https://mm-consulting.ai",
     title: "MM Consulting – AI Transformation",
     description:
-      "Transforming mid-market companies through enterprise-grade AI training and implementation.",
+      "Transforming companies through enterprise-grade AI training and implementation.",
     images: [{ url: "https://mm-consulting.ai/logo.jpeg" }],
   },
 };
@@ -33,7 +33,7 @@ export default function RootLayout({
     url: "https://mm-consulting.ai",
     logo: "https://mm-consulting.ai/logo.jpeg",
     description:
-      "Transforming mid-market companies through enterprise-grade AI training and implementation.",
+      "Transforming companies through enterprise-grade AI training and implementation.",
     address: {
       "@type": "PostalAddress",
       streetAddress: "6 Fairlawns, 89 Wimbledon Parkside",

@@ -18,11 +18,11 @@ export default function ToolkitSection() {
               Curated by YC, Google &amp; BlackRock alumni
             </h2>
             <p className="text-brand-textDim mt-4 text-lg max-w-xl mx-auto lg:mx-0">
-              We track 2 000+ releases so you don’t have to. These{" "}
+              We track 2&nbsp;000+ releases so you don’t have to. These{" "}
               <em>battle-tested</em> platforms—spanning projects, sales, comms,
-              content and copilots—are the ones already driving ROI inside
-              mid-market teams. Every course ships with sandbox accounts,
-              tailored prompts and live drills.
+              content and copilots—are already delivering ROI for teams of every
+              size. Every course ships with sandbox accounts, tailored prompts
+              and live drills.
             </p>
           </div>
 
